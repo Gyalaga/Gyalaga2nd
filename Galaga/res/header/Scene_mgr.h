@@ -1,4 +1,5 @@
-#pragma once
+#ifndef _SCENE_MGR_H_
+#define _SCENE_MGR_H_
 
 typedef enum {
 	eScene_TITLE,    //タイトルシーン
@@ -10,3 +11,6 @@ typedef enum {
 void Scene_change();
 
 //引数 nextScene にシーンを変更する
+void Change_scene(eScene nextScene);
+
+#endif // !1

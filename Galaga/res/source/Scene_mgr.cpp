@@ -20,3 +20,8 @@ void Scene_change() {
 		break;
 	}
 }
+
+void Change_scene(eScene nextScene) {
+
+	Scene = nextScene;
+}
